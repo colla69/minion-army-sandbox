@@ -14,4 +14,6 @@ expect() { # expected output, arguments...
 }
 expect "Hello, world!"
 expect "Hello, Ada!" Ada
+expect "HELLO, BOB!" --shout Bob
+expect "HELLO, WORLD!" --shout
 exit $((failures > 0))
